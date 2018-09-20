@@ -1,0 +1,38 @@
+router
+
+Server1             NA   0    0    
+Intermediate2       NA   0    0    
+Intermediate3       NA   0    0    
+Intermediate4       NA   0    0    
+Intermediate5	    NA   0    0    
+Intermediate6       NA   0    0    
+Intermediate7       NA   0    0    
+Intermediate8       NA   0    0
+Intermediate9       NA   0    0    
+Edge10              NA   0    0
+Edge11              NA   0    0
+Edge12              NA   0    0
+Edge13              NA   0    0
+Edge14              NA   0    0
+Edge15              NA   0    0
+Edge16              NA   0    0
+Edge17              NA   0    0        
+
+link
+
+Intermediate2       Server1             20000Kbps       1    0ms       2147483647          
+Intermediate3       Intermediate2       20000Kbps       1    0ms       2147483647          
+Intermediate6       Intermediate2       20000Kbps       1    0ms       2147483647
+Intermediate4       Intermediate3       20000Kbps       1    0ms       2147483647
+Intermediate7       Intermediate3       20000Kbps       1    0ms       2147483647
+Intermediate5       Intermediate4       20000Kbps       1    0ms       2147483647
+Intermediate8      	Intermediate4       20000Kbps       1    0ms       2147483647
+Intermediate9      	Intermediate5       20000Kbps       1    0ms       2147483647
+Edge10       	    Intermediate2       20000Kbps       1    0ms       2147483647
+Edge11      	    Intermediate6       20000Kbps       1    0ms       2147483647
+Edge12      	    Intermediate3       20000Kbps       1    0ms       2147483647
+Edge13      	    Intermediate7       20000Kbps       1    0ms       2147483647
+Edge14      	    Intermediate4      	20000Kbps       1    0ms       2147483647
+Edge15      	    Intermediate8      	20000Kbps       1    0ms       2147483647
+Edge16      	    Intermediate5      	20000Kbps       1    0ms       2147483647
+Edge17      	    Intermediate9      	20000Kbps       1    0ms       2147483647
